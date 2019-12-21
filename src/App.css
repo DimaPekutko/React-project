@@ -1,38 +1,168 @@
-.App {
-  text-align: center;
+.App-wrapper {
+  display: grid;
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 3px;
+
+  grid-template-areas: 
+  "h h" 
+  "n c";
+
+  color: #ffff;
+
+  width: 80%;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  padding: 0;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+hr {
+  background: #ffff;
 }
 
-.App-link {
-  color: #61dafb;
+.Header {
+  grid-area: h;
+  background: black; 
+  /*#DB1A23*/
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Header img {
+  /*width: 100px;*/
+  height: 100%;
 }
+
+.Sidebar-nav {
+  grid-area: n;
+  background: black;
+  padding-top: 30px;
+}
+
+.Sidebar-nav div {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 1px;
+}
+
+.Main-content {
+  grid-area: c;
+  background: black;
+  width: 100%;
+}
+
+.Main-background-img {
+  width: 100%;
+  height: 250px;
+}        
+
+.Main-desc {
+  width: 100%;
+  min-height: 180px;
+  display: table-cell;
+} 
+
+.Main-desc .left-content {
+  min-height: 100%;
+  float: left;
+}
+
+.Main-desc .left-content img {
+  width: 115px;
+  padding: 20px;
+}
+
+.Main-desc .right-content {
+  max-width: 80%;
+  min-height: 100%;
+  float: left;
+}
+
+.Main-desc .right-content h2 {
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  margin: 0;
+}
+
+.Main-desc .right-content p {
+  padding-left: 10px;
+}
+
+.Main-posts {
+  padding-left: 20px;  
+  padding-right: 20px;
+}
+
+.Main-add-post {
+  padding-bottom: 50px;
+}
+
+.Main-add-post-message {
+  opacity: 0.95;
+  width: 30%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.Main-add-post-submit { 
+  opacity: 0.95;
+  width: 10%;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  margin-left: 10px;
+}
+
+.Main-add-post-message:hover {
+  opacity: 1;
+}
+
+.Main-add-post-submit:hover {
+  opacity: 1;
+}
+
+.Main-posts-list {
+  padding-left: 20px;
+}
+
+.Main-posts-post {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.Main-posts-post img {
+  width: 50px;
+  vertical-align: middle;
+}
+
+.Main-posts-post span {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
