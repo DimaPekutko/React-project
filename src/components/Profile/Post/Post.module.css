@@ -1,0 +1,14 @@
+.Profile_posts_post {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.Profile_posts_post img {
+  width: 50px;
+  vertical-align: middle;
+}
+
+.Profile_posts_post span {
+  font-size: 20px;
+  padding-left: 10px;
+}

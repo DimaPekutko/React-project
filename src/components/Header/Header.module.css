@@ -1,0 +1,10 @@
+.Header {
+  grid-area: h;
+  background: black; 
+  /*#DB1A23*/
+}
+
+.Header img {
+  /*width: 100px;*/
+  height: 100%;
+}

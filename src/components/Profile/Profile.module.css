@@ -1,0 +1,85 @@
+.Profile_content {
+  grid-area: c;
+  background: black;
+  width: 100%;
+}
+
+.Profile_background_img {
+  width: 100%;
+  height: 250px;
+}        
+
+.Profile_desc {
+  width: 100%;
+  min-height: 180px;
+  display: table-cell;
+} 
+
+.Profile_desc .left_content {
+  min-height: 100%;
+  float: left;
+}
+
+.Profile_desc .left_content img {
+  width: 115px;
+  padding: 20px;
+}
+
+.Profile_desc .right_content {
+  max-width: 80%;
+  min-height: 100%;
+  float: left;
+}
+
+.Profile_desc .right_content h2 {
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  margin: 0;
+}
+
+.Profile_desc .right_content p {
+  padding-left: 10px;
+}
+
+.Profile_posts {
+  padding-left: 20px;  
+  padding-right: 20px;
+}
+
+.Profile_add_post {
+  padding-bottom: 50px;
+}
+
+.Profile_add_post_message {
+  opacity: 0.95;
+  width: 30%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.Profile_add_post_submit { 
+  opacity: 0.95;
+  width: 10%;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  margin-left: 10px;
+}
+
+.Profile_add_post_message:hover {
+  opacity: 1;
+}
+
+.Profile_add_post_submit:hover {
+  opacity: 1;
+}
+
+.Profile_posts_list {
+  padding-left: 20px;
+}
