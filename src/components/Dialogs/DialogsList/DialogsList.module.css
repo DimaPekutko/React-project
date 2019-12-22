@@ -1,0 +1,26 @@
+.Dialogs_list {
+	width: 25%;
+	margin-left: 3%;
+	float: left;
+}
+
+.item {
+	border-bottom: 0.5px solid #1a1a1a;
+	font-size: 20px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.item a {
+	color: #ffff;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+.item:nth-child(1) {
+	background: #DB1A23;
+}
+
+.item:hover {
+	background: #1a1a1a;
+}

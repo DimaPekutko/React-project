@@ -20,10 +20,6 @@ a {
   color: blue;
 }
 
-a:focus {
-  color: skyblue;
-}
-
 p {
   padding: 0;
   margin: 0;
@@ -33,6 +29,11 @@ hr {
   background: #ffff;
 }
 
+.Content {
+  grid-area: c;
+  background: black;
+  width: 100%;
+}
 
 
 

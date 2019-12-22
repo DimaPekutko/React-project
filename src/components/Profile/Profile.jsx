@@ -5,9 +5,10 @@ import css from './Profile.module.css';
 
 function Profile() {
 	return (
-		<div className={css.Profile_content}>
-        <div>
-          <img className={css.Profile_background_img} src="https://ak9.picdn.net/shutterstock/videos/18681329/thumb/1.jpg"/>
+		<div>
+        <div className={css.Profile_top}>
+          <a href="#rrr"><h2>@jamesduff</h2></a>
+          <img src="https://blenderartists.org/uploads/default/original/4X/7/e/2/7e2d7bea4ac21388c4a96e1371f375c4ce00094b.jpg"/>
         </div>
         <div className={css.Profile_desc}>
           <div className={css.left_content}>

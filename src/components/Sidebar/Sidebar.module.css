@@ -10,3 +10,8 @@
   padding-left: 30px;
   padding-top: 1px;
 }
+
+.active_link {
+	color: #ffff;
+	font-weight: bold;
+}
