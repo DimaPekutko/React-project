@@ -23,36 +23,6 @@ function Chat() {
 					<span className={css.Message_name}>James Duff</span>
 					<span className={css.Message_text}>Hello my friend! lorem dwakdokwa dwkaopdkwao dkwap okd kwaokd owak odk waokd okwo kdowa dka wokd waok dowk aokd owa</span>
 				</div>
-				<div className={css.item}>
-					<img src="https://pngimage.net/wp-content/uploads/2018/05/duff-logo-png-3.png"/>
-					<span className={css.Message_name}>James Duff</span>
-					<span className={css.Message_text}>Hello my friend! lorem dwakdokwa dwkaopdkwao dkwap okd kwaokd owak odk waokd okwo kdowa dka wokd waok dowk aokd owa</span>
-				</div>
-				<div className={css.item}>
-					<img src="https://pngimage.net/wp-content/uploads/2018/05/duff-logo-png-3.png"/>
-					<span className={css.Message_name}>James Duff</span>
-					<span className={css.Message_text}>Hello my friend! lorem dwakdokwa dwkaopdkwao dkwap okd kwaokd owak odk waokd okwo kdowa dka wokd waok dowk aokd owa</span>
-				</div>
-				<div className={css.item}>
-					<img src="https://pngimage.net/wp-content/uploads/2018/05/duff-logo-png-3.png"/>
-					<span className={css.Message_name}>James Duff</span>
-					<span className={css.Message_text}>Hello my friend! lorem dwakdokwa dwkaopdkwao dkwap okd kwaokd owak odk waokd okwo kdowa dka wokd waok dowk aokd owa</span>
-				</div>
-				<div className={css.item}>
-					<img src="https://pngimage.net/wp-content/uploads/2018/05/duff-logo-png-3.png"/>
-					<span className={css.Message_name}>James Duff</span>
-					<span className={css.Message_text}>Hello my friend! lorem dwakdokwa dwkaopdkwao dkwap okd kwaokd owak odk waokd okwo kdowa dka wokd waok dowk aokd owa</span>
-				</div>
-				<div className={css.item}>
-					<img src="https://pngimage.net/wp-content/uploads/2018/05/duff-logo-png-3.png"/>
-					<span className={css.Message_name}>James Duff</span>
-					<span className={css.Message_text}>Hello my friend! lorem dwakdokwa dwkaopdkwao dkwap okd kwaokd owak odk waokd okwo kdowa dka wokd waok dowk aokd owa</span>
-				</div>
-				<div className={css.item}>
-					<img src="https://pngimage.net/wp-content/uploads/2018/05/duff-logo-png-3.png"/>
-					<span className={css.Message_name}>James Duff</span>
-					<span className={css.Message_text}>Hello my friend! lorem dwakdokwa dwkaopdkwao dkwap okd kwaokd owak odk waokd okwo kdowa dka wokd waok dowk aokd owa</span>
-				</div>
 			</div>
 			<div className={css.Chat_add_message}>
 				<form>

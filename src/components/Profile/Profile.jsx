@@ -2,7 +2,7 @@ import React from 'react';
 import Post from './Post/Post';
 import css from './Profile.module.css';
 
-
+ 
 function Profile() {
 	return (
 		<div>

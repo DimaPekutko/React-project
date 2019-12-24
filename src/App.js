@@ -13,6 +13,7 @@ function App() {
       <Header/>
       <Sidebar/>
       <div className="Content"> 
+        <Route exact path="/" component={Profile}/>
       	<Route path="/profile" component={Profile}/>
       	<Route path="/dialogs" component={Dialogs}/>
       </div> 
@@ -20,5 +21,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;
