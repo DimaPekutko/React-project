@@ -3,7 +3,17 @@ import Post from './Post/Post';
 import css from './Profile.module.css';
 
  
-function Profile() {
+function Profile(props) {
+  console.log(props);
+  let Posts = props.state.posts.map(post => <Post id={post.id} text={post.text}/>);
+
+  let newPostText = React.createRef();
+
+  let addPost = () => {
+    let text = newPostText.current.value;
+    props.addPost(text);
+  }
+
 	return (
 		<div>
         <div className={css.Profile_top}>
@@ -27,16 +37,21 @@ function Profile() {
             <h2>My posts</h2>
           </div>
           <div className={css.Profile_add_post}>
-            <form action="#">
-              <input className={css.Profile_add_post_message} type="text" name="post-text" placeholder="Your message..."/>
-              <input className={css.Profile_add_post_submit} type="submit" name="submit-post" value="Send" />
-            </form>
+              <input className={css.Profile_add_post_message} 
+                type="text" 
+                name="post-text" 
+                placeholder="Your message..."
+                ref={ newPostText }/>
+              <input 
+              className={css.Profile_add_post_submit} 
+                type="submit" 
+                name="submit-post" 
+                value="Send" 
+                onClick={ addPost } />
           </div>
         </div>
         <div className={css.Profile_posts_list}>
-          <Post message="Hello all!"/>
-          <Post message="Ya, good."/>
-          <Post message="Good job."/>
+          { Posts }
         </div>
       </div>
 	);

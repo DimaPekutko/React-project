@@ -6,16 +6,16 @@ import Profile from './components/Profile/Profile.jsx';
 import Dialogs from './components/Dialogs/Dialogs.jsx';
 import './App.css';
 
-function App() {
+function App(props) {
   return (
   	<BrowserRouter>
     <div className="App-wrapper">
       <Header/>
       <Sidebar/>
       <div className="Content"> 
-        <Route exact path="/" component={Profile}/>
-      	<Route path="/profile" component={Profile}/>
-      	<Route path="/dialogs" component={Dialogs}/>
+        <Route exact path="/" render={ () => <Profile state={props.state.profilePage} addPost={props.addPost}/> }/>
+        <Route path="/profile" render={ () => <Profile state={props.state.profilePage} addPost={props.addPost}/> }/>
+        <Route path="/dialogs" render={ () => <Dialogs state={props.state.dialogsPage}/> }/>
       </div> 
     </div>
     </BrowserRouter>

@@ -49,7 +49,7 @@
 }
 
 .Chat_add_message_message {
-  opacity: 0.95;
+  opacity: 0.9;
   width: 80%;
   height: 30px;
   border: none;
@@ -58,9 +58,11 @@
 }
 
 .Chat_add_message_submit {
-  opacity: 0.95;
+  background: #DB1A23;
+  color: #ffff;
+  opacity: 0.9;
   width: 18%;
-  height: 30px;
+  height: 32px;
   border: none;
   outline: none;
 }
